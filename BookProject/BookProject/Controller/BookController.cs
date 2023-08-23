@@ -37,16 +37,21 @@ namespace BookProject
         }
 
         [HttpGet]
-        public async Task<ViewResult> Update()
+        public async Task<ViewResult> Update(string id)
         {
-            return View(new Book());
+            var book = await bookService.GetBookById(id);
+            return View(book);
         }
 
         [HttpPost]
         public async Task<ActionResult> Update(Book bookData)
         {
-            Book book = await bookService.UpdateBook(bookData);
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                Book book = await bookService.UpdateBook(bookData);
+                return RedirectToAction("Index");
+            }
+            return View(bookData);
         }
 
 
@@ -63,11 +68,13 @@ namespace BookProject
         [HttpPost]
         public async Task<ActionResult> Add(Book book)
         {
-            await bookService.AddBook(book);
+            if (ModelState.IsValid)
+            {
+                await bookService.AddBook(book);
 
-
-
-            return RedirectToAction("Index");
+                return RedirectToAction("Index");
+            }
+            return View(book);
         }
 
 		public async Task<ActionResult> Delete(string id)

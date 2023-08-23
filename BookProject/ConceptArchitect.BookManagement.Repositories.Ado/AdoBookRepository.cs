@@ -72,8 +72,8 @@ namespace ConceptArchitect.BookManagement.Repositories.Ado
 				var query = $"update books set " +
 							$"Title='{oldBook.Title}', " +
 							$"Description='{oldBook.Description}', " +
-							$"Author_Id='{oldBook.Author_Id}, " +
-							$"Cover_Photo='{oldBook.Cover_Photo} " +
+							$"Author_Id='{oldBook.Author_Id}', " +
+							$"Cover_Photo='{oldBook.Cover_Photo}' " +
 							$"where id='{oldBook.Id}'";
 
 				await db.ExecuteUpdateAsync(query);

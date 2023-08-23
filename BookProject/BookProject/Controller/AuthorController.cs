@@ -64,8 +64,12 @@ namespace BookProject
 		[HttpPost]
         public async Task<ActionResult> Update(Author authorData)
         {
-            Author author = await authorService.UpdateAuthor(authorData);
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                Author author = await authorService.UpdateAuthor(authorData);
+                return RedirectToAction("Index");
+            }
+            return View(authorData);
         }
         
 
