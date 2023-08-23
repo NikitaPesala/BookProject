@@ -31,8 +31,16 @@ namespace BookProject
 			app.UseRouting();
 
 			app.UseAuthorization();
+          
 
-			app.MapControllerRoute(
+            app.MapControllerRoute(
+               name: "default",
+               pattern: "",
+               defaults: new { controller = "Author", action = "Index" }
+            );
+
+           
+            app.MapControllerRoute(
 				name: "default",
 				pattern: "{controller=Home}/{action=Index}/{id?}");
 
@@ -42,10 +50,7 @@ namespace BookProject
 		   defaults: new { controller = "Author", action = "Add" }
 		   );
 
-			
-
-
-			return app;
+            return app;
 		}
 
 	}
