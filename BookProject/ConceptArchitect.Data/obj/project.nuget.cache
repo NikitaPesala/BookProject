@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rlCajerkCtrjNij7wx47DtWGgwiGlW/HUDsI9TMTdSt5ipCd2cNI36D7pXoGo48pjhQ2h7yQ+jj5j7vDfmuOyA==",
+  "dgSpecHash": "wK5/wz0y7yqLbgg/QJmUqzNj3ASLYHV6vxuie5qIl5j0Zckjgwh70cPWCU2j9sq3zDouF8AUJ4ntttFAJTf08g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pesalni\\source\\repos\\202307-ecolab-cs\\cs-projects\\BooksManagementApp\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
+  "projectFilePath": "C:\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

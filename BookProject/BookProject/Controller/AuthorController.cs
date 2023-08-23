@@ -36,9 +36,13 @@ namespace BookProject
 		[HttpPost]
 		public async Task<ActionResult> Add(Author author)
 		{
-			await authorService.AddAuthor(author);
+			if (ModelState.IsValid)
+			{
+                await authorService.AddAuthor(author);
 
-			return RedirectToAction("Index");
+                return RedirectToAction("Index");
+            }
+			return View(author);
 		}
 
 

@@ -62,19 +62,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pesalni\\.nuget\\packages\\": {}
+    "C:\\Users\\mohapar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pesalni\\source\\repos\\202307-ecolab-cs\\cs-projects\\BooksManagementApp\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj",
+      "projectUniqueName": "C:\\BookProject\\BookProject\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj",
       "projectName": "ConceptArchitect.BookManagement.Repositories.Ado",
-      "projectPath": "C:\\Users\\pesalni\\source\\repos\\202307-ecolab-cs\\cs-projects\\BooksManagementApp\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj",
-      "packagesPath": "C:\\Users\\pesalni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pesalni\\source\\repos\\202307-ecolab-cs\\cs-projects\\BooksManagementApp\\ConceptArchitect.BookManagement.Repositories.Ado\\obj\\",
+      "projectPath": "C:\\BookProject\\BookProject\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj",
+      "packagesPath": "C:\\Users\\mohapar\\.nuget\\packages\\",
+      "outputPath": "C:\\BookProject\\BookProject\\ConceptArchitect.BookManagement.Repositories.Ado\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\pesalni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mohapar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -88,11 +88,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\pesalni\\source\\repos\\202307-ecolab-cs\\cs-projects\\BooksManagementApp\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
-              "projectPath": "C:\\Users\\pesalni\\source\\repos\\202307-ecolab-cs\\cs-projects\\BooksManagementApp\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj"
+            "C:\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
+              "projectPath": "C:\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj"
             },
-            "C:\\Users\\pesalni\\source\\repos\\202307-ecolab-cs\\cs-projects\\BooksManagementApp\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
-              "projectPath": "C:\\Users\\pesalni\\source\\repos\\202307-ecolab-cs\\cs-projects\\BooksManagementApp\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj"
+            "C:\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
+              "projectPath": "C:\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj"
             }
           }
         }

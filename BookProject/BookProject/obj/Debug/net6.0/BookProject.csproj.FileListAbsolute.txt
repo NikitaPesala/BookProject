@@ -86,3 +86,47 @@ C:\Users\pesalni\Downloads\BookProject (2)\BookProject\BookProject\obj\Debug\net
 C:\Users\pesalni\Downloads\BookProject (2)\BookProject\BookProject\obj\Debug\net6.0\BookProject.pdb
 C:\Users\pesalni\Downloads\BookProject (2)\BookProject\BookProject\obj\Debug\net6.0\BookProject.genruntimeconfig.cache
 C:\Users\pesalni\Downloads\BookProject (2)\BookProject\BookProject\obj\Debug\net6.0\ref\BookProject.dll
+C:\BookProject\BookProject\BookProject\bin\Debug\net6.0\appsettings.Development.json
+C:\BookProject\BookProject\BookProject\bin\Debug\net6.0\appsettings.json
+C:\BookProject\BookProject\BookProject\bin\Debug\net6.0\BookProject.staticwebassets.runtime.json
+C:\BookProject\BookProject\BookProject\bin\Debug\net6.0\BookProject.exe
+C:\BookProject\BookProject\BookProject\bin\Debug\net6.0\BookProject.deps.json
+C:\BookProject\BookProject\BookProject\bin\Debug\net6.0\BookProject.runtimeconfig.json
+C:\BookProject\BookProject\BookProject\bin\Debug\net6.0\BookProject.dll
+C:\BookProject\BookProject\BookProject\bin\Debug\net6.0\BookProject.pdb
+C:\BookProject\BookProject\BookProject\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\BookProject\BookProject\BookProject\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\BookProject\BookProject\BookProject\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\BookProject\BookProject\BookProject\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\BookProject\BookProject\BookProject\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\BookProject\BookProject\BookProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\BookProject\BookProject\BookProject\bin\Debug\net6.0\ConceptArchitect.BookManagement.dll
+C:\BookProject\BookProject\BookProject\bin\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.Ado.dll
+C:\BookProject\BookProject\BookProject\bin\Debug\net6.0\ConceptArchitect.Data.dll
+C:\BookProject\BookProject\BookProject\bin\Debug\net6.0\ConceptArchitect.Utils.dll
+C:\BookProject\BookProject\BookProject\bin\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.Ado.pdb
+C:\BookProject\BookProject\BookProject\bin\Debug\net6.0\ConceptArchitect.BookManagement.pdb
+C:\BookProject\BookProject\BookProject\bin\Debug\net6.0\ConceptArchitect.Data.pdb
+C:\BookProject\BookProject\BookProject\bin\Debug\net6.0\ConceptArchitect.Utils.pdb
+C:\BookProject\BookProject\BookProject\obj\Debug\net6.0\BookProject.csproj.AssemblyReference.cache
+C:\BookProject\BookProject\BookProject\obj\Debug\net6.0\BookProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\BookProject\BookProject\BookProject\obj\Debug\net6.0\BookProject.AssemblyInfoInputs.cache
+C:\BookProject\BookProject\BookProject\obj\Debug\net6.0\BookProject.AssemblyInfo.cs
+C:\BookProject\BookProject\BookProject\obj\Debug\net6.0\BookProject.csproj.CoreCompileInputs.cache
+C:\BookProject\BookProject\BookProject\obj\Debug\net6.0\BookProject.MvcApplicationPartsAssemblyInfo.cache
+C:\BookProject\BookProject\BookProject\obj\Debug\net6.0\BookProject.RazorAssemblyInfo.cache
+C:\BookProject\BookProject\BookProject\obj\Debug\net6.0\BookProject.RazorAssemblyInfo.cs
+C:\BookProject\BookProject\BookProject\obj\Debug\net6.0\staticwebassets\msbuild.BookProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:\BookProject\BookProject\BookProject\obj\Debug\net6.0\staticwebassets\msbuild.build.BookProject.props
+C:\BookProject\BookProject\BookProject\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BookProject.props
+C:\BookProject\BookProject\BookProject\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BookProject.props
+C:\BookProject\BookProject\BookProject\obj\Debug\net6.0\staticwebassets.pack.json
+C:\BookProject\BookProject\BookProject\obj\Debug\net6.0\staticwebassets.build.json
+C:\BookProject\BookProject\BookProject\obj\Debug\net6.0\staticwebassets.development.json
+C:\BookProject\BookProject\BookProject\obj\Debug\net6.0\scopedcss\bundle\BookProject.styles.css
+C:\BookProject\BookProject\BookProject\obj\Debug\net6.0\BookProject.csproj.CopyComplete
+C:\BookProject\BookProject\BookProject\obj\Debug\net6.0\BookProject.dll
+C:\BookProject\BookProject\BookProject\obj\Debug\net6.0\refint\BookProject.dll
+C:\BookProject\BookProject\BookProject\obj\Debug\net6.0\BookProject.pdb
+C:\BookProject\BookProject\BookProject\obj\Debug\net6.0\BookProject.genruntimeconfig.cache
+C:\BookProject\BookProject\BookProject\obj\Debug\net6.0\ref\BookProject.dll

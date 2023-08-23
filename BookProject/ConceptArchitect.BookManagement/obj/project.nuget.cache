@@ -1,27 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/ndaek2lCiW/DpwGv4P5dgsh0Qe/47du52sDMhqO6fm7sBOolApkQy3ceRZ3zcfroTCj2yr+xTCpX42t4U/qIg==",
-  "success": false,
-  "projectFilePath": "C:\\Users\\pesalni\\Downloads\\BookProject (2)\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj",
+  "dgSpecHash": "Gz9vhPspmeM+ZlaOEpBehtSXlk93G3GC1OsSHKi9Q1gofQRa6SW5l0rNE0EVCX956Uc2p13Qm84QCN2042SFEQ==",
+  "success": true,
+  "projectFilePath": "C:\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'C:\\Users\\pesalni\\Downloads\\BookProject (2)\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\Users\\pesalni\\Downloads\\BookProject (2)\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'C:\\Users\\pesalni\\Downloads\\BookProject (2)\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\Users\\pesalni\\Downloads\\BookProject (2)\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

@@ -16,10 +16,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\source\repos\202307-ecolab-cs\cs-projects\BooksManagementApp\ConceptArchitect.BookManagement.Repositories.Ado\ConceptArchitect.BookManagement.Repositories.Ado.csproj" />
-    <ProjectReference Include="..\..\..\..\source\repos\202307-ecolab-cs\cs-projects\BooksManagementApp\ConceptArchitect.BookManagement\ConceptArchitect.BookManagement.csproj" />
-    <ProjectReference Include="..\..\..\..\source\repos\202307-ecolab-cs\cs-projects\BooksManagementApp\ConceptArchitect.Data\ConceptArchitect.Data.csproj" />
-    <ProjectReference Include="..\..\..\..\source\repos\202307-ecolab-cs\cs-projects\BooksManagementApp\ConceptArchitect.Utils\ConceptArchitect.Utils.csproj" />
+    <ProjectReference Include="..\ConceptArchitect.BookManagement.Repositories.Ado\ConceptArchitect.BookManagement.Repositories.Ado.csproj" />
+    <ProjectReference Include="..\ConceptArchitect.BookManagement\ConceptArchitect.BookManagement.csproj" />
+    <ProjectReference Include="..\ConceptArchitect.Data\ConceptArchitect.Data.csproj" />
+    <ProjectReference Include="..\ConceptArchitect.Utils\ConceptArchitect.Utils.csproj" />
   </ItemGroup>
 
 </Project>

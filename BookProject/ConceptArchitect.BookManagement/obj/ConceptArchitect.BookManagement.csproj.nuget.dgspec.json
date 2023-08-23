@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pesalni\\Downloads\\BookProject (2)\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {}
+    "C:\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pesalni\\Downloads\\BookProject (2)\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
+    "C:\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pesalni\\Downloads\\BookProject (2)\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj",
+        "projectUniqueName": "C:\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj",
         "projectName": "ConceptArchitect.BookManagement",
-        "projectPath": "C:\\Users\\pesalni\\Downloads\\BookProject (2)\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj",
-        "packagesPath": "C:\\Users\\pesalni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pesalni\\Downloads\\BookProject (2)\\BookProject\\ConceptArchitect.BookManagement\\obj\\",
+        "projectPath": "C:\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj",
+        "packagesPath": "C:\\Users\\mohapar\\.nuget\\packages\\",
+        "outputPath": "C:\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pesalni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mohapar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,13 +28,123 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\pesalni\\Downloads\\BookProject (2)\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj": {
-                "projectPath": "C:\\Users\\pesalni\\Downloads\\BookProject (2)\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj"
+              "C:\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj": {
+                "projectPath": "C:\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj"
               },
-              "C:\\Users\\pesalni\\Downloads\\BookProject (2)\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
-                "projectPath": "C:\\Users\\pesalni\\Downloads\\BookProject (2)\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj"
+              "C:\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
+                "projectPath": "C:\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj"
               }
             }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
+        "projectName": "ConceptArchitect.Data",
+        "projectPath": "C:\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
+        "packagesPath": "C:\\Users\\mohapar\\.nuget\\packages\\",
+        "outputPath": "C:\\BookProject\\BookProject\\ConceptArchitect.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mohapar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
+        "projectName": "ConceptArchitect.Utils",
+        "projectPath": "C:\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
+        "packagesPath": "C:\\Users\\mohapar\\.nuget\\packages\\",
+        "outputPath": "C:\\BookProject\\BookProject\\ConceptArchitect.Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mohapar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
           }
         },
         "warningProperties": {
