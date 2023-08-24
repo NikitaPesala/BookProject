@@ -4,7 +4,7 @@ namespace ConceptArchitect.BookManagement
 {
     public class Author
     {
-        [Required]
+        [UniqueAuthorId]
         public string Id { get; set; }
 
         [Required]
