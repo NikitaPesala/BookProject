@@ -19,6 +19,7 @@ namespace ConceptArchitect.BookManagement
         public string Description { get; set; }
 
 		[Required]
+		[CustomAuthorIdValidation(ErrorMessage = "Author Id does not exist")]
 		public string Author_Id { get; set; }
 		public string Cover_Photo { get; set; }
 	}

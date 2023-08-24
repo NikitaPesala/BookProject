@@ -80,9 +80,6 @@ namespace ConceptArchitect.BookManagement.Repositories.Ado
 			}
 
 			return entity;
-
-
-
 		}
 	}
 }
