@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4i37FiGsje4z87n62/977vHpF3E5sEBJmhKOARUj/aMJc8Sj+wAGQZ/rbqFDs6dvRzlb2F2JdtdfVrdEKAuSIA==",
+  "dgSpecHash": "wK5/wz0y7yqLbgg/QJmUqzNj3ASLYHV6vxuie5qIl5j0Zckjgwh70cPWCU2j9sq3zDouF8AUJ4ntttFAJTf08g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kushwte\\source\\repos\\BookProjecttt\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
+  "projectFilePath": "C:\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
