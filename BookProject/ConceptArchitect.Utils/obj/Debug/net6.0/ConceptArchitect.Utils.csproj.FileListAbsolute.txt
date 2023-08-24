@@ -10,3 +10,14 @@ C:\BookProject\BookProject\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchit
 C:\BookProject\BookProject\ConceptArchitect.Utils\obj\Debug\net6.0\refint\ConceptArchitect.Utils.dll
 C:\BookProject\BookProject\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.pdb
 C:\BookProject\BookProject\ConceptArchitect.Utils\obj\Debug\net6.0\ref\ConceptArchitect.Utils.dll
+C:\Users\kushwte\Source\Repos\BookProjecttt\BookProject\ConceptArchitect.Utils\bin\Debug\net6.0\ConceptArchitect.Utils.deps.json
+C:\Users\kushwte\Source\Repos\BookProjecttt\BookProject\ConceptArchitect.Utils\bin\Debug\net6.0\ConceptArchitect.Utils.dll
+C:\Users\kushwte\Source\Repos\BookProjecttt\BookProject\ConceptArchitect.Utils\bin\Debug\net6.0\ConceptArchitect.Utils.pdb
+C:\Users\kushwte\Source\Repos\BookProjecttt\BookProject\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kushwte\Source\Repos\BookProjecttt\BookProject\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.AssemblyInfoInputs.cache
+C:\Users\kushwte\Source\Repos\BookProjecttt\BookProject\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.AssemblyInfo.cs
+C:\Users\kushwte\Source\Repos\BookProjecttt\BookProject\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.csproj.CoreCompileInputs.cache
+C:\Users\kushwte\Source\Repos\BookProjecttt\BookProject\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.dll
+C:\Users\kushwte\Source\Repos\BookProjecttt\BookProject\ConceptArchitect.Utils\obj\Debug\net6.0\refint\ConceptArchitect.Utils.dll
+C:\Users\kushwte\Source\Repos\BookProjecttt\BookProject\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.pdb
+C:\Users\kushwte\Source\Repos\BookProjecttt\BookProject\ConceptArchitect.Utils\obj\Debug\net6.0\ref\ConceptArchitect.Utils.dll

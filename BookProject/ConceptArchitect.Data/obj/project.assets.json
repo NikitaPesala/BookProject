@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\mohapar\\.nuget\\packages\\": {}
+    "C:\\Users\\kushwte\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
+      "projectUniqueName": "C:\\Users\\kushwte\\Source\\Repos\\BookProjecttt\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
       "projectName": "ConceptArchitect.Data",
-      "projectPath": "C:\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
-      "packagesPath": "C:\\Users\\mohapar\\.nuget\\packages\\",
-      "outputPath": "C:\\BookProject\\BookProject\\ConceptArchitect.Data\\obj\\",
+      "projectPath": "C:\\Users\\kushwte\\Source\\Repos\\BookProjecttt\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
+      "packagesPath": "C:\\Users\\kushwte\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kushwte\\Source\\Repos\\BookProjecttt\\BookProject\\ConceptArchitect.Data\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\mohapar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kushwte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -61,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
