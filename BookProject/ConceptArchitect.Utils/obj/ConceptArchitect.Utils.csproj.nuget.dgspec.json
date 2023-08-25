@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {}
+    "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {}
   },
   "projects": {
-    "C:\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
+    "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
+        "projectUniqueName": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
         "projectName": "ConceptArchitect.Utils",
-        "projectPath": "C:\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
-        "packagesPath": "C:\\Users\\mohapar\\.nuget\\packages\\",
-        "outputPath": "C:\\BookProject\\BookProject\\ConceptArchitect.Utils\\obj\\",
+        "projectPath": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
+        "packagesPath": "C:\\Users\\mla12\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.Utils\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mohapar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mla12\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

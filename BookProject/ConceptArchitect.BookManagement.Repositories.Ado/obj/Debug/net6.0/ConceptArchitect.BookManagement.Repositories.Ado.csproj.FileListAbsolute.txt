@@ -36,3 +36,11 @@ C:\Users\kushwte\Source\Repos\BookProjecttt\BookProject\ConceptArchitect.BookMan
 C:\Users\kushwte\Source\Repos\BookProjecttt\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\obj\Debug\net6.0\refint\ConceptArchitect.BookManagement.Repositories.Ado.dll
 C:\Users\kushwte\Source\Repos\BookProjecttt\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.Ado.pdb
 C:\Users\kushwte\Source\Repos\BookProjecttt\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\obj\Debug\net6.0\ref\ConceptArchitect.BookManagement.Repositories.Ado.dll
+C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.Ado.csproj.AssemblyReference.cache
+C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.Ado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.Ado.AssemblyInfoInputs.cache
+C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.Ado.AssemblyInfo.cs
+C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.Ado.csproj.CoreCompileInputs.cache
+C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.Ado.dll
+C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\obj\Debug\net6.0\refint\ConceptArchitect.BookManagement.Repositories.Ado.dll
+C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.Ado.pdb

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\BookProject\\BookProject\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj": {}
+    "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj": {}
   },
   "projects": {
-    "C:\\BookProject\\BookProject\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj": {
+    "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\BookProject\\BookProject\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj",
+        "projectUniqueName": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj",
         "projectName": "ConceptArchitect.BookManagement.Repositories.Ado",
-        "projectPath": "C:\\BookProject\\BookProject\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj",
-        "packagesPath": "C:\\Users\\mohapar\\.nuget\\packages\\",
-        "outputPath": "C:\\BookProject\\BookProject\\ConceptArchitect.BookManagement.Repositories.Ado\\obj\\",
+        "projectPath": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj",
+        "packagesPath": "C:\\Users\\mla12\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.BookManagement.Repositories.Ado\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mohapar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mla12\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
-                "projectPath": "C:\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj"
+              "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
+                "projectPath": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj"
               },
-              "C:\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
-                "projectPath": "C:\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj"
+              "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
+                "projectPath": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj"
               }
             }
           }
@@ -66,17 +66,17 @@
         }
       }
     },
-    "C:\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
+    "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj",
+        "projectUniqueName": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj",
         "projectName": "ConceptArchitect.BookManagement",
-        "projectPath": "C:\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj",
-        "packagesPath": "C:\\Users\\mohapar\\.nuget\\packages\\",
-        "outputPath": "C:\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\obj\\",
+        "projectPath": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj",
+        "packagesPath": "C:\\Users\\mla12\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mohapar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mla12\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,11 +90,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj": {
-                "projectPath": "C:\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj"
+              "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj": {
+                "projectPath": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj"
               },
-              "C:\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
-                "projectPath": "C:\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj"
+              "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
+                "projectPath": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj"
               }
             }
           }
@@ -108,6 +108,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "DataAnnotationsExtensions": {
+              "target": "Package",
+              "version": "[5.0.1.27, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -128,17 +134,17 @@
         }
       }
     },
-    "C:\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj": {
+    "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
+        "projectUniqueName": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
         "projectName": "ConceptArchitect.Data",
-        "projectPath": "C:\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
-        "packagesPath": "C:\\Users\\mohapar\\.nuget\\packages\\",
-        "outputPath": "C:\\BookProject\\BookProject\\ConceptArchitect.Data\\obj\\",
+        "projectPath": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
+        "packagesPath": "C:\\Users\\mla12\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mohapar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mla12\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -183,17 +189,17 @@
         }
       }
     },
-    "C:\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
+    "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
+        "projectUniqueName": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
         "projectName": "ConceptArchitect.Utils",
-        "projectPath": "C:\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
-        "packagesPath": "C:\\Users\\mohapar\\.nuget\\packages\\",
-        "outputPath": "C:\\BookProject\\BookProject\\ConceptArchitect.Utils\\obj\\",
+        "projectPath": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
+        "packagesPath": "C:\\Users\\mla12\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.Utils\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mohapar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mla12\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

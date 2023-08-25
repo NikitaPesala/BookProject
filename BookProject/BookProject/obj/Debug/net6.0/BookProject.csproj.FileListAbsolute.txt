@@ -174,3 +174,15 @@ C:\Users\kushwte\Source\Repos\BookProjecttt\BookProject\BookProject\obj\Debug\ne
 C:\Users\kushwte\Source\Repos\BookProjecttt\BookProject\BookProject\obj\Debug\net6.0\BookProject.pdb
 C:\Users\kushwte\Source\Repos\BookProjecttt\BookProject\BookProject\obj\Debug\net6.0\BookProject.genruntimeconfig.cache
 C:\Users\kushwte\Source\Repos\BookProjecttt\BookProject\BookProject\obj\Debug\net6.0\ref\BookProject.dll
+C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\BookProject\obj\Debug\net6.0\BookProject.csproj.AssemblyReference.cache
+C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\BookProject\obj\Debug\net6.0\BookProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\BookProject\obj\Debug\net6.0\BookProject.AssemblyInfoInputs.cache
+C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\BookProject\obj\Debug\net6.0\BookProject.AssemblyInfo.cs
+C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\BookProject\obj\Debug\net6.0\BookProject.csproj.CoreCompileInputs.cache
+C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\BookProject\obj\Debug\net6.0\BookProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\BookProject\obj\Debug\net6.0\BookProject.RazorAssemblyInfo.cache
+C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\BookProject\obj\Debug\net6.0\BookProject.RazorAssemblyInfo.cs
+C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\BookProject\obj\Debug\net6.0\BookProject.dll
+C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\BookProject\obj\Debug\net6.0\refint\BookProject.dll
+C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\BookProject\obj\Debug\net6.0\BookProject.pdb
+C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\BookProject\obj\Debug\net6.0\BookProject.MvcApplicationPartsAssemblyInfo.cs
