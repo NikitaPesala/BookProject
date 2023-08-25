@@ -1,5 +1,6 @@
 using ConceptArchitect.Data;
 using ConceptArchitect.Utils;
+using Newtonsoft.Json;
 using System.Data;
 
 namespace ConceptArchitect.BookManagement.Repositories.Ado
@@ -18,7 +19,7 @@ namespace ConceptArchitect.BookManagement.Repositories.Ado
 		public async Task<Book> Add(Book book)
 		{
 			var query = $"insert into books(id,title,description,author_id,cover_photo) " +
-							  $"values('{book.Id}','{book.Title}','{book.Description}','{book.Author_Id}','{book.Cover_Photo}')";
+							  $"values('{book.Id}','{book.Title}','{book.Description}','{book.Author.Id}','{book.Cover}')";
 
 			await db.ExecuteUpdateAsync(query);
 
@@ -32,13 +33,19 @@ namespace ConceptArchitect.BookManagement.Repositories.Ado
 
 		private Book BookExtractor(IDataReader reader)
 		{
-			return new Book()
+            Author author = new Author();
+            return new Book()
 			{
+				
 				Id = reader["id"].ToString(),
 				Title = reader["title"].ToString(),
 				Description = reader["description"].ToString(),
-				Author_Id = reader["author_id"].ToString(),
-				Cover_Photo = reader["cover_photo"].ToString()
+
+				Author= new Author
+                { Id = reader["author_id"].ToString() },
+            
+           
+				Cover = reader["cover_photo"].ToString()
 
 			};
 		}
@@ -72,8 +79,8 @@ namespace ConceptArchitect.BookManagement.Repositories.Ado
 				var query = $"update books set " +
 							$"Title='{oldBook.Title}', " +
 							$"Description='{oldBook.Description}', " +
-							$"Author_Id='{oldBook.Author_Id}', " +
-							$"Cover_Photo='{oldBook.Cover_Photo}' " +
+							$"Author_Id='{oldBook.Author.Id}', " +
+							$"Cover_Photo='{oldBook.Cover}' " +
 							$"where id='{oldBook.Id}'";
 
 				await db.ExecuteUpdateAsync(query);

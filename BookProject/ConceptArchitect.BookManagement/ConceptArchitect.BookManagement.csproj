@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DataAnnotationsExtensions" Version="5.0.1.27" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ConceptArchitect.Data\ConceptArchitect.Data.csproj" />
     <ProjectReference Include="..\ConceptArchitect.Utils\ConceptArchitect.Utils.csproj" />
   </ItemGroup>

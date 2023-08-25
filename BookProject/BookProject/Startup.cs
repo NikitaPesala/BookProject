@@ -1,7 +1,9 @@
 ﻿using ConceptArchitect.BookManagement;
 
 using BookProject.Extensions;
-using BooksWeb02;
+using BookProject;
+using Microsoft.AspNetCore.Authentication;
+using ConceptArchitect.BookManagement.Repositories.EFRepository;
 
 namespace BookProject
 {
@@ -12,11 +14,13 @@ namespace BookProject
 
             services.AddControllersWithViews();
 
-            services.AddAdoBMSRepository();
+            services.AddEFBmsRepository();
 
             services.AddTransient<IAuthorService, PersistentAuthorService>();
 
-            services.AddTransient<IBookService, PersistentBookService>();
+            //services.AddTransient<IBookService, PersistentBookService>();
+
+            services.AddTransient<IUserService, PersistentUserService>();
 
             return services;
         }
@@ -27,6 +31,16 @@ namespace BookProject
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+            else
+            {
+                app.UseOnUrl("/admin/createdb", async context =>
+                {
+                    var bmsContext = context.RequestServices.GetService<BMSContext>();
+                    await bmsContext.Database.EnsureCreatedAsync();
+                    context.Response.Redirect("/");
+                });
+            }
+
             app.UseOnUrl("/admin/seed", async context =>
             {
                 var authorService = context.RequestServices.GetService<IAuthorService>();
@@ -65,7 +79,8 @@ namespace BookProject
             app.MapControllerRoute(
                name: "default",
                pattern: "",
-               defaults: new { controller = "Author", action = "Index" }
+               defaults: new { controller = "Home", action = "Home" }
+
             );
 
 

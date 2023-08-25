@@ -1,4 +1,4 @@
-﻿namespace BooksWeb02
+﻿namespace BookProject
 {
     public static class CustomMiddlewares
     {
