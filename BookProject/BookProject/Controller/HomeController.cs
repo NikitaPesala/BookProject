@@ -4,7 +4,7 @@ namespace BookProject
 {
     public class HomeController : Controller
     {
-        public ViewResult Index()
+        public ViewResult Home()
         {
             return View();
         }

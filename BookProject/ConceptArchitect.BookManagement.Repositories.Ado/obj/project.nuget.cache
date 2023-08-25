@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "gTNJkKuDNtqQmayAdff1Rl0/GdTTR0XMBSdWb/f++jdlaGtqtGcRXoSMF14IV5iR0KXiZbgpKE9QdsfbRV2U2w==",
+  "dgSpecHash": "1GhkGQ/r9ycEx4lgOxKyQ70PPTeI/W5VhMMwHnOiQYz48yQnGBtlqxT7XbKlDUIIwwqt7Y8IvXftCF6glmJeoQ==",
   "success": true,
-  "projectFilePath": "C:\\BookProject\\BookProject\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "projectFilePath": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.BookManagement.Repositories.Ado\\ConceptArchitect.BookManagement.Repositories.Ado.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mla12\\.nuget\\packages\\dataannotationsextensions\\5.0.1.27\\dataannotationsextensions.5.0.1.27.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DataAnnotationsExtensions 5.0.1.27' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DataAnnotationsExtensions",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
