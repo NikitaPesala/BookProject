@@ -33,3 +33,15 @@ C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\ConceptArchi
 C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\ConceptArchitect.Utils\obj\Debug\net6.0\refint\ConceptArchitect.Utils.dll
 C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.pdb
 C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\ConceptArchitect.Utils\obj\Debug\net6.0\ref\ConceptArchitect.Utils.dll
+C:\New Project\BookProject\BookProject\ConceptArchitect.Utils\bin\Debug\net6.0\ConceptArchitect.Utils.deps.json
+C:\New Project\BookProject\BookProject\ConceptArchitect.Utils\bin\Debug\net6.0\ConceptArchitect.Utils.dll
+C:\New Project\BookProject\BookProject\ConceptArchitect.Utils\bin\Debug\net6.0\ConceptArchitect.Utils.pdb
+C:\New Project\BookProject\BookProject\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.csproj.AssemblyReference.cache
+C:\New Project\BookProject\BookProject\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\New Project\BookProject\BookProject\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.AssemblyInfoInputs.cache
+C:\New Project\BookProject\BookProject\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.AssemblyInfo.cs
+C:\New Project\BookProject\BookProject\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.csproj.CoreCompileInputs.cache
+C:\New Project\BookProject\BookProject\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.dll
+C:\New Project\BookProject\BookProject\ConceptArchitect.Utils\obj\Debug\net6.0\refint\ConceptArchitect.Utils.dll
+C:\New Project\BookProject\BookProject\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.pdb
+C:\New Project\BookProject\BookProject\ConceptArchitect.Utils\obj\Debug\net6.0\ref\ConceptArchitect.Utils.dll

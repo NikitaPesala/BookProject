@@ -26,6 +26,8 @@ namespace ConceptArchitect.BookManagement
                                 .GetAuthorById(value as string)
                                 .Result;
 
+                if (author == null)
+                    return ValidationResult.Success;
                 return new ValidationResult($"Duplicate Id: {value}. currently associated with {author.Name}");
             }
             catch (InvalidIdException<string> ex)

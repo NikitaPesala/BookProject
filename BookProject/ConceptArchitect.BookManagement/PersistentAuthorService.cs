@@ -24,10 +24,10 @@ namespace ConceptArchitect.BookManagement
             if (author == null)
                 throw new InvalidDataException("Author can't be null");
 
-            if (string.IsNullOrEmpty(author.Id))
+            /*if (string.IsNullOrEmpty(author.Id))
             {
                 author.Id = await GenerateId(author.Name);
-            }
+            }*/
 
             return await repository.Add(author);
         }

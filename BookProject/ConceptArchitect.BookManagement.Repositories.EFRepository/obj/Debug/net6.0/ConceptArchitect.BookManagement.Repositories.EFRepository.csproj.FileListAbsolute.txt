@@ -19,3 +19,24 @@ C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\ConceptArchi
 C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.EFRepository\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.EFRepository.pdb
 C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.EFRepository\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.EFRepository.genruntimeconfig.cache
 C:\Users\mla12\source\repos\TrainingProject\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.EFRepository\obj\Debug\net6.0\ref\ConceptArchitect.BookManagement.Repositories.EFRepository.dll
+C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.EFRepository\bin\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.EFRepository.deps.json
+C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.EFRepository\bin\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.EFRepository.runtimeconfig.json
+C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.EFRepository\bin\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.EFRepository.dll
+C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.EFRepository\bin\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.EFRepository.pdb
+C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.EFRepository\bin\Debug\net6.0\ConceptArchitect.BookManagement.dll
+C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.EFRepository\bin\Debug\net6.0\ConceptArchitect.Data.dll
+C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.EFRepository\bin\Debug\net6.0\ConceptArchitect.Utils.dll
+C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.EFRepository\bin\Debug\net6.0\ConceptArchitect.BookManagement.pdb
+C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.EFRepository\bin\Debug\net6.0\ConceptArchitect.Data.pdb
+C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.EFRepository\bin\Debug\net6.0\ConceptArchitect.Utils.pdb
+C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.EFRepository\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.EFRepository.csproj.AssemblyReference.cache
+C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.EFRepository\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.EFRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.EFRepository\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.EFRepository.AssemblyInfoInputs.cache
+C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.EFRepository\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.EFRepository.AssemblyInfo.cs
+C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.EFRepository\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.EFRepository.csproj.CoreCompileInputs.cache
+C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.EFRepository\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.EFRepository.csproj.CopyComplete
+C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.EFRepository\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.EFRepository.dll
+C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.EFRepository\obj\Debug\net6.0\refint\ConceptArchitect.BookManagement.Repositories.EFRepository.dll
+C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.EFRepository\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.EFRepository.pdb
+C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.EFRepository\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.EFRepository.genruntimeconfig.cache
+C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.EFRepository\obj\Debug\net6.0\ref\ConceptArchitect.BookManagement.Repositories.EFRepository.dll

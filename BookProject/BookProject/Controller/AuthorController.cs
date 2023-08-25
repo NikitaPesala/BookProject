@@ -1,4 +1,5 @@
 ﻿using ConceptArchitect.BookManagement;
+using BookProject.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookProject
@@ -57,23 +58,45 @@ namespace BookProject
         public async Task<ViewResult> Update(string id)
         {
 			var author = await authorService.GetAuthorById(id);
-			return View(author);
+			var vm = new EditAuthorViewModel()
+			{
+				Id = author.Id,
+				Name = author.Name,
+				Biography = author.Biography,
+				BirthDate = author.BirthDate,
+				DeathDate = author.DeathDate,
+				Tags = author.Tags,
+				Photo = author.Photo
+			};
+			return View(vm);
 
 		}
 
 		[HttpPost]
-        public async Task<ActionResult> Update(Author authorData)
+        public async Task<ActionResult> Update(EditAuthorViewModel vm)
         {
             if (ModelState.IsValid)
             {
-                Author author = await authorService.UpdateAuthor(authorData);
+                var author = new Author()
+                {
+                    Id = vm.Id,
+                    Name = vm.Name,
+                    Biography = vm.Biography,
+                    BirthDate = vm.BirthDate,
+                    DeathDate = vm.DeathDate,
+                    Tags = vm.Tags,
+                    Photo = vm.Photo
+                };
+
+                await authorService.UpdateAuthor(author);
                 return RedirectToAction("Index");
             }
-            return View(authorData);
+			else
+			{
+                return View(vm);
+            }
         }
         
-
-
        
         public async Task<ActionResult> Delete(string id)
         {

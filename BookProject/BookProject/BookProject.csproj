@@ -12,11 +12,21 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\ConceptArchitect.BookManagement.Repositories.Ado\ConceptArchitect.BookManagement.Repositories.Ado.csproj" />
+    <ProjectReference Include="..\ConceptArchitect.BookManagement.Repositories.EFRepository\ConceptArchitect.BookManagement.Repositories.EFRepository.csproj" />
     <ProjectReference Include="..\ConceptArchitect.BookManagement\ConceptArchitect.BookManagement.csproj" />
     <ProjectReference Include="..\ConceptArchitect.Data\ConceptArchitect.Data.csproj" />
     <ProjectReference Include="..\ConceptArchitect.Utils\ConceptArchitect.Utils.csproj" />

@@ -3584,19 +3584,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mla12\\.nuget\\packages\\": {}
+    "C:\\Users\\mohapar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.BookManagement.Repositories.EFRepository\\ConceptArchitect.BookManagement.Repositories.EFRepository.csproj",
+      "projectUniqueName": "C:\\New Project\\BookProject\\BookProject\\ConceptArchitect.BookManagement.Repositories.EFRepository\\ConceptArchitect.BookManagement.Repositories.EFRepository.csproj",
       "projectName": "ConceptArchitect.BookManagement.Repositories.EFRepository",
-      "projectPath": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.BookManagement.Repositories.EFRepository\\ConceptArchitect.BookManagement.Repositories.EFRepository.csproj",
-      "packagesPath": "C:\\Users\\mla12\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.BookManagement.Repositories.EFRepository\\obj\\",
+      "projectPath": "C:\\New Project\\BookProject\\BookProject\\ConceptArchitect.BookManagement.Repositories.EFRepository\\ConceptArchitect.BookManagement.Repositories.EFRepository.csproj",
+      "packagesPath": "C:\\Users\\mohapar\\.nuget\\packages\\",
+      "outputPath": "C:\\New Project\\BookProject\\BookProject\\ConceptArchitect.BookManagement.Repositories.EFRepository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mla12\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mohapar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3610,8 +3610,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
-              "projectPath": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj"
+            "C:\\New Project\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
+              "projectPath": "C:\\New Project\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj"
             }
           }
         }

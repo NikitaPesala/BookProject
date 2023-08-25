@@ -15,6 +15,9 @@ namespace ConceptArchitect.BookManagement
 
         public Author Author { get; set; }
 
+        [ExistingAuthor]
+        public string AuthorId { get; set; }
+
         public string Cover { get; set; }
 
         [StringLength(2000,MinimumLength =50)]

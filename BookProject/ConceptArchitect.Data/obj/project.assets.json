@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\mla12\\.nuget\\packages\\": {}
+    "C:\\Users\\mohapar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
+      "projectUniqueName": "C:\\New Project\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
       "projectName": "ConceptArchitect.Data",
-      "projectPath": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
-      "packagesPath": "C:\\Users\\mla12\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mla12\\source\\repos\\TrainingProject\\BookProject\\BookProject\\ConceptArchitect.Data\\obj\\",
+      "projectPath": "C:\\New Project\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
+      "packagesPath": "C:\\Users\\mohapar\\.nuget\\packages\\",
+      "outputPath": "C:\\New Project\\BookProject\\BookProject\\ConceptArchitect.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mla12\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mohapar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -18,7 +18,7 @@ namespace BookProject
 
             services.AddTransient<IAuthorService, PersistentAuthorService>();
 
-            //services.AddTransient<IBookService, PersistentBookService>();
+            services.AddTransient<IBookService, PersistentBookService>();
 
             services.AddTransient<IUserService, PersistentUserService>();
 
