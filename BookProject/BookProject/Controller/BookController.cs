@@ -101,45 +101,45 @@ namespace BookProject
 
 
 
-        public Book SaveV1(string id, string title, string description,string author_id,string cover_photo)
-        {
-            var book = new Book()
-            {
-                Id = id,
-                Title = title,
-                Description = description,
-                Author_Id = author_id,
-                Cover_Photo = cover_photo
+        //public Book SaveV1(string id, string title, string description,string author_id,string cover_photo)
+        //{
+        //    var book = new Book()
+        //    {
+        //        Id = id,
+        //        Title = title,
+        //        Description = description,
+        //        Author.Id = author_id,
+        //        Cover = cover_photo
 
-            };
+        //    };
 
-            return book;
-        }
-
-
-
-        public Book SaveV0()
-        {
-            var book = new Book()
-            {
+        //    return book;
+        //}
 
 
 
-                Id = Request.Form["id"],
-                Title = Request.Form["title"],
-                Description = Request.Form["description"],
-                Author_Id = Request.Form["author_id"],
-                Cover_Photo = Request.Form["cover_photo"]
+        //public Book SaveV0()
+        //{
+        //    var book = new Book()
+        //    {
+
+
+
+        //        Id = Request.Form["id"],
+        //        Title = Request.Form["title"],
+        //        Description = Request.Form["description"],
+        //        Author_Id = Request.Form["author_id"],
+        //        Cover_Photo = Request.Form["cover_photo"]
 
 
 
 
 
-            };
+        //    };
 
 
 
-            return book;
-        }
+        //    return book;
+        //}
     }
 }

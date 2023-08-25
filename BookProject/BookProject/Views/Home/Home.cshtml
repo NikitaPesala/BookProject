@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/homestyle.css">
+	<title>Home Page</title>
+
+</head>
+<body>
+	<!-- <div class="navbar">
+		<a href="#">Home</a>
+		<a href="#">My Books</a>
+		<a href="#">Add Book</a>
+		<a href="#">Logout</a>
+	</div> -->
+
+	<div class="content">
+		<div class="background-image"></div>
+		<div class="welcome">Welcome to Your Personal Library !!</div>
+	</div>
+
+	<div class="container">
+
+		<!-- upper button section to select
+			the login or signup form -->
+		<div class="slider"></div>
+		<div class="btn">
+		@*	<button  class="login">Login</button>
+			<button class="signup">Signup</button>*@
+			<a href="@Url.Action("Login","User")" class="login">Login</a>
+			<a href="@Url.Action("Login","User")" class="login">Login</a>
+		</div>
+
+		@*<!-- Form section that contains the
+			login and the signup form -->
+		<div class="form-section">
+
+			<!-- login form -->
+
+			<div class="login-box">
+				<input type="email"
+					   class="email ele"
+					   placeholder="youremail@email.com">
+				<input type="password"
+					   class="password ele"
+					   placeholder="password">
+				<button href="" class="clkbtn">Login</button>
+			</div>
+
+			<!-- signup form -->
+			<div class="signup-box">
+				<input type="text"
+					   class="name ele"
+					   placeholder="Enter your name">
+				<input type="email"
+					   class="email ele"
+					   placeholder="youremail@email.com">
+				<input type="password"
+					   class="password ele"
+					   placeholder="password">
+				<input type="password"
+					   class="password ele"
+					   placeholder="Confirm password">
+				<button class="clkbtn">Signup</button>
+			</div>
+		</div>
+	</div>*@
+	<script src="js/signin.js"></script>
+
+</body>
+</html>

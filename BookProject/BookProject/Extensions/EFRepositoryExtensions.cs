@@ -4,7 +4,7 @@ using ConceptArchitect.Utils;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace BooksWeb02.Extensions
+namespace BookProject.Extensions
 {
     public static  class EFRepositoryExtensions
     {
@@ -23,6 +23,10 @@ namespace BooksWeb02.Extensions
             });
 
             services.AddTransient<IRepository<Author, string>, EFAuthorRepository>();
+
+            services.AddTransient<IRepository<User,string>,EFUserRepository>();
+
+            services.AddTransient<IRepository<Book,string>,EFBookRepository>();
 
             return services;
 

@@ -1,0 +1,30 @@
+﻿@using ConceptArchitect.BookManagement
+@model User
+
+
+
+
+
+
+
+<form asp-action="Login" method="POST">
+
+    <label asp-for="@Model.Email" class='form-label'>Email</label>
+    <input type='text' name="email" value="@Model.Email" class='form-control' />
+
+    <label asp-for="@Model.Password" class='form-label'>Password</label>
+    <input type='text' name="password" value="@Model.Password" class='form-control' />
+
+
+
+
+
+
+    <div>
+
+        <input type="submit" value="Login" class='btn btn-primary form-control' />
+        <div class="btn btn-info form-control">
+            <a class="nav-link text-light" asp-controller="user" asp-action="add">Already Have a Account</a>
+        </div>
+    </div>
+</form>

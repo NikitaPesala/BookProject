@@ -77,8 +77,8 @@ namespace ConceptArchitect.BookManagement
 				old.Id = newDetails.Id;
 				old.Title = newDetails.Title;
 				old.Description = newDetails.Description;
-				old.Author_Id= newDetails.Author_Id;
-				old.Cover_Photo = newDetails.Cover_Photo;
+				old.Author.Id= newDetails.Author.Id;
+				old.Cover = newDetails.Cover;
 			});
 		}
 	}

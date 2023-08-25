@@ -84,18 +84,18 @@
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.Author_Id, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.Author.Id, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.Author_Id, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.Author_Id, "", new { @class = "text-danger" })
+                @Html.EditorFor(model => model.Author.Id, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Author.Id, "", new { @class = "text-danger" })
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.Cover_Photo, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.Cover, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.Cover_Photo, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.Cover_Photo, "", new { @class = "text-danger" })
+                @Html.EditorFor(model => model.Cover, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Cover, "", new { @class = "text-danger" })
             </div>
         </div>
 
