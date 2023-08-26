@@ -77,7 +77,7 @@ namespace BookProject
             return RedirectToAction("Index");
         }
 
-		[HttpGet]
+        /*[HttpGet]
 		public async Task<ViewResult> Update(string id)
 		{
 			var book = await bookService.GetBookById(id);
@@ -91,10 +91,33 @@ namespace BookProject
 				Tags =book.Tags,
 				Cover = book.Cover
 			};
-			return View(vm);
-		}
+            
+            return View(vm);
+		}*/
 
-		[HttpPost]
+        [HttpGet]
+        public async Task<ViewResult> Update(string id)
+        {
+            AuthorController ac = new AuthorController(null);
+            ac.ControllerContext = ControllerContext;
+            List<Author> response = await authorService.GetAllAuthors();
+            ViewBag.response = response;
+            var book = await bookService.GetBookById(id);
+            var vm = new EditBookViewModel()
+            {
+                Id = book.Id,
+                Title = book.Title,
+                Description = book.Description,
+                Price = book.Price,
+                AuthorId = book.AuthorId,
+                Tags = book.Tags,
+                Cover = book.Cover
+            };
+
+            return View(vm);
+        }
+
+        [HttpPost]
 		public async Task<ActionResult> Update(EditBookViewModel vm)
 		{
 			if (ModelState.IsValid)

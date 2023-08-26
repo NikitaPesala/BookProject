@@ -1,107 +1,81 @@
 ﻿@model BookProject.ViewModels.EditBookViewModel
 
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
 @{
     Layout = "/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Update @Model.Title</h2>
-
-@*
-<form asp-action="Update" method="POST">
-
-    <label asp-for="@Model.Id" class='form-label'>Id</label>
-
-    <input type='text' name="Id" value="@Model.Id" class='form-control' />
-
-
-    <label asp-for="@Model.Title" class='form-label'>Title</label>
-
-    <input type='text' name="Title" value="@Model.Title" class='form-control' />
-
-
-
-
-    <label asp-for="@Model.Description" class='form-label'>Description</label>
-
-    <input type='text' name="description" value="@Model.Description" class='form-control' />
-
-
-    <label asp-for="@Model.Author_Id" class='form-label'>Author_Id</label>
-
-    <input type='text' name="Author_Id" value="@Model.Author_Id" class='form-control' />
-
-
-    <label asp-for="@Model.Cover_Photo" class='form-label'>Photo</label>
-
-    <input type='text' name="photo" value="@Model.Cover_Photo" class='form-control' />
-
-
-    <div>
-
-        <input type="submit" value="Update Book" class='btn btn-primary form-control' />
-
-    </div>
-
-</form>
-
-
-
-
-*@
-
-@using (Html.BeginForm())
-{
-    @Html.AntiForgeryToken()
-
-    <div class="form-horizontal">
-        <h4>Book</h4>
-        <hr />
-        <div class="form-group">
-            @Html.LabelFor(model => model.Id, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                <h3>
-                @Html.DisplayFor(model => model.Id, new { htmlAttributes = new { @class = "form-control" } })
-                </h3>
-                @Html.ValidationMessageFor(model => model.Id, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.Title, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.AuthorId, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.AuthorId, new { htmlAttributes = new { @class = "form-control"} })
-                @Html.ValidationMessageFor(model => model.AuthorId, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.Cover, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Cover, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.Cover, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Update Book" class='btn btn-primary form-control' />
-            </div>
-        </div>
-    </div>
+@{
+    ViewData["Title"] = "Update";
 }
+
+<h1>Update</h1>
+
+<h4>@Model.Title</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Update" asp-controller="Book" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label">Id</label>
+                <input asp-for="Id" class="form-control" readonly />
+            </div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label">Title</label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            @*  <div class="form-group">
+
+            <label asp-for="AuthorId" class="control-label">Author</label>
+            <select asp-for="AuthorId" class="form-control" asp-items="Author.id">
+            <option value="">Select an author</option>
+            </select>
+            <span asp-validation-for="AuthorId" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <label asp-for="AuthorId" class="control-label">Author</label>
+                @*<select asp-for="AuthorId" class="form-control">
+                    <option value="">Select an author</option>
+                    @foreach (var author in ViewBag.response)
+                    {
+                        <option value="@author.Id"> @author.Name </option>
+                    }
+                </select>*@
+                <input asp-for="AuthorId" class="form-control" />
+                <span asp-validation-for="AuthorId" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="Cover" class="control-label">Cover</label>
+                <input asp-for="Cover" class="form-control" />
+                <span asp-validation-for="Cover" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label">Description</label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label">Price</label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tags" class="control-label">Tags</label>
+                <input asp-for="Tags" class="form-control" />
+                <span asp-validation-for="Tags" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Update Book" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
