@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ConceptArchitect.BookManagement.Author>
+﻿@model IEnumerable<ConceptArchitect.BookManagement.Book>
 
 
 
@@ -11,7 +11,7 @@
 
 	<div class="section-title">
 
-		<h2><span>Authors</span></h2>
+		<h2><span>bookss</span></h2>
 
 	</div>
 
@@ -21,7 +21,7 @@
 
 
 
-		@foreach (var author in Model)
+		@foreach (var books in Model)
 
 		{
 
@@ -33,9 +33,9 @@
 
 					<div class="col-md-5 wrapthumbnail">
 
-						<a href="AuthorsList.html">
+						<a href="bookssList.html">
 
-							<div class="thumbnail" style="background-image: url(@author.Photo);">
+							<div class="thumbnail" style="background-image: url(@books.Cover);">
 							</div>
 
 						</a>
@@ -46,11 +46,11 @@
 
 						<div class="card-block">
 
-							<h2 class="card-title"><a href="@Url.Action("authorlistid", "author", new { id = author.Id })">@author.Name</a></h2>
+							<h2 class="card-title"><a href="@Url.Action("booklistid", "book", new { id = books.Id })">@books.Title</a></h2>
 
-							@*<h2 class="card-title"><a href="">@author.Name</a></h2>*@
+							@*<h2 class="card-title"><a href="">@books.Name</a></h2>*@
 
-							<h4 class="card-text">@author.Biography</h4>
+							<h4 class="card-text">@books.Description</h4>
 
 							<div class="metafooter">
 
@@ -58,13 +58,13 @@
 
 									<span class="meta-footer-thumb">
 
-										<a href="author.html"><img class="author-thumb" src="@author.Photo;d=mm&amp;r=x" alt="@author.Name"></a>
+										<a href="books.html"><img class="books-thumb" src="@books.Cover;d=mm&amp;r=x" alt="@books.Title"></a>
 
 									</span>
 
-									<span class="author-meta">
+									<span class="books-meta">
 
-										<span class="post-name"><a href="author.html">@author.Name</a></span><br />
+										<span class="post-name"><a href="books.html">@books.Title</a></span><br />
 
 									</span>
 

@@ -18,7 +18,7 @@ namespace ConceptArchitect.BookManagement.Repositories.Ado
 		public async Task<Book> Add(Book book)
 		{
 			var query = $"insert into books(id,title,description,author_id,cover_photo) " +
-							  $"values('{book.Id}','{book.Title}','{book.Description}','{book.Author.Id}','{book.Cover}')";
+							  $"values('{book.Id}','{book.Title}','{book.Description}','{book.AuthorId}','{book.Cover}')";
 
 			await db.ExecuteUpdateAsync(query);
 
@@ -40,8 +40,8 @@ namespace ConceptArchitect.BookManagement.Repositories.Ado
 				Title = reader["title"].ToString(),
 				Description = reader["description"].ToString(),
 
-				Author= new Author
-                { Id = reader["author_id"].ToString() },
+				
+                 AuthorId = reader["author_id"].ToString() ,
             
            
 				Cover = reader["cover_photo"].ToString()
@@ -78,7 +78,7 @@ namespace ConceptArchitect.BookManagement.Repositories.Ado
 				var query = $"update books set " +
 							$"Title='{oldBook.Title}', " +
 							$"Description='{oldBook.Description}', " +
-							$"Author_Id='{oldBook.Author.Id}', " +
+							$"Author_Id='{oldBook.AuthorId}', " +
 							$"Cover_Photo='{oldBook.Cover}' " +
 							$"where id='{oldBook.Id}'";
 

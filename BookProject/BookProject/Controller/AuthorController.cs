@@ -62,6 +62,7 @@ namespace BookProject
 			{
 				Id = author.Id,
 				Name = author.Name,
+				Email= author.Email,
 				Biography = author.Biography,
 				BirthDate = author.BirthDate,
 				DeathDate = author.DeathDate,
@@ -81,6 +82,7 @@ namespace BookProject
                 {
                     Id = vm.Id,
                     Name = vm.Name,
+					Email = vm.Email,
                     Biography = vm.Biography,
                     BirthDate = vm.BirthDate,
                     DeathDate = vm.DeathDate,
