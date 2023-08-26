@@ -30,7 +30,7 @@ namespace BookProject.Extensions
             //add all your repositories here  AuthorRepository, BookRepository
 
             services.AddSingleton<IRepository<Author, string>, AdoAuthorRepository>();
-			services.AddSingleton<IRepository<Book, string>, AdoBookRepository>();
+			services.AddSingleton<IBookRepository<Book, Favourites, string>, AdoBookRepository>();
 
 
 			return services;

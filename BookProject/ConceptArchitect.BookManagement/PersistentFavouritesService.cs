@@ -26,7 +26,7 @@ namespace ConceptArchitect.BookManagement
 
             if (string.IsNullOrEmpty(Favourites.Id))
             {
-                Favourites.Id = await GenerateId(Favourites.User.Name);
+                Favourites.Id = await GenerateId(Favourites.UserEmail + Favourites.Book.Title);
             }
 
             return await repository.Add(Favourites);

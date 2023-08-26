@@ -26,7 +26,7 @@ namespace BookProject.Extensions
 
             services.AddTransient<IRepository<User,string>,EFUserRepository>();
 
-            services.AddTransient<IRepository<Book,string>,EFBookRepository>();
+            services.AddTransient<IBookRepository<Book, Favourites, string>,EFBookRepository>();
 
             return services;
 

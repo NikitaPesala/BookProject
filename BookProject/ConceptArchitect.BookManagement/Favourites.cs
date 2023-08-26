@@ -9,8 +9,10 @@ namespace ConceptArchitect.BookManagement
     public class Favourites
     {
         public string Id { get; set; }
-        public Book Book { get; set; }
-        public User User { get; set; }
+
+        public string UserEmail { get; set; }
+
+        public Book Book { get; set; } 
 
     }
 }

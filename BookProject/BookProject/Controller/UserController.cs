@@ -67,15 +67,17 @@ namespace BooksProject
             {
                 return View(new User());
             }
-            return RedirectToAction("Index", "Home", null);
+            string userId = user.Email;
+            HttpContext.Session.SetString("UserId", userId);
+            return RedirectToAction("Index", "Author", null);
         }
 
         [HttpPost]
         public async Task<ActionResult> Add(User user)
         {
             await authorService.AddUser(user);
-
-            return RedirectToAction("Index", "Home", user.Name);
+			HttpContext.Session.SetString("UserId", user.Email);
+			return RedirectToAction("Index", "Author", user.Name);
         }
 
 

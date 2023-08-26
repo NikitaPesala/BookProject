@@ -9,10 +9,11 @@ namespace ConceptArchitect.BookManagement
 {
 	public class PersistentBookService: IBookService
 	{
-		IRepository<Book, string> repository;
+		IBookRepository<Book, Favourites, string> repository;
+        IRepository<Favourites, string> repositoryFav;
 
-		//constructor based DI
-		public PersistentBookService(IRepository<Book, string> repository)
+        //constructor based DI
+        public PersistentBookService(IBookRepository<Book, Favourites, string> repository)
 		{
 			this.repository = repository;
 		}
@@ -81,6 +82,37 @@ namespace ConceptArchitect.BookManagement
 				old.Cover = newDetails.Cover;
 			});
 		}
+
+        public async Task<Book> AddFavs(Book book, string userId)
+        {
+            if (book == null)
+            {
+                throw new ArgumentException("Book not found");
+            }
+
+            // You need to have a method in the repository to add the book to the user's favorites
+            await repository.Fav(book, userId);
+
+            return book;
+        }
+
+        public async Task<List<Book>> GetAllFavs(string userId)
+        {
+            
+            return await repository.GetAllFav(userId);
+        }
+
+        public async Task DeleteFav(string bookId, string userId)
+        {
+			await repository.DeleteFav(bookId, userId);
+        }
+
+		public async Task<bool> IsBookInUserFavorites(string bookId, string userId)
+		{
+			var userFavorites = await repository.GetAllFav(userId);
+			return userFavorites.Any(favorite => favorite.Id == bookId);
+		}
+
 	}
 }
 

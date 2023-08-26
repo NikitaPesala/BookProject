@@ -1,14 +1,15 @@
 using ConceptArchitect.Data;
 using ConceptArchitect.Utils;
 using System.Data;
+using System.Net.Http;
 
 namespace ConceptArchitect.BookManagement.Repositories.Ado
 {
-	public class AdoBookRepository: IRepository<Book, string>
+	public class AdoBookRepository: IBookRepository<Book, Favourites, string>
 	{
 		DbManager db;
 		private object books;
-
+		
 		public AdoBookRepository(DbManager db)
 		{
 			this.db = db;
@@ -87,5 +88,35 @@ namespace ConceptArchitect.BookManagement.Repositories.Ado
 
 			return entity;
 		}
-	}
+
+        public async Task<Book> Fav(Book book, string userId)
+        {
+            var query = $"insert into favorites(BookId, UserEmail) " +
+                              $"values('{book.Id}','{userId}')";
+
+            await db.ExecuteUpdateAsync(query);
+
+            return book;
+        }
+
+        public async Task<List<Book>> GetAllFav(string userId)
+        {
+            return await db.QueryAsync("Select * from Books where id in(Select BookId from Favorites);", BookExtractor);
+        }
+
+        public async Task<List<Book>> GetAllFav(string userId, Func<Book, bool> predicate)
+        {
+            var books = await GetAllFav(userId);
+
+            return (from book in books
+                    where predicate(book)
+                    select book).ToList();
+
+        }
+
+        public async Task DeleteFav(string id, string user_id)
+        {
+            await db.ExecuteUpdateAsync($"delete from favorites where BookId='{id}' and UserEmail='{user_id}'");
+        }
+    }
 }

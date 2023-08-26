@@ -1,0 +1,187 @@
+﻿@model IEnumerable<ConceptArchitect.BookManagement.Book>
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@*
+<h2>Favoruites Books</h2>
+
+<div class="row">
+
+    @foreach (var author in Model)
+    {
+        <div class='col col-md-3'>
+            <div class="card" style="width: 18rem; margin-bottom:5rem">
+                <img class="card-img-top" src="@author.Cover" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">@author.Id</h5>
+                    <p class="card-text">@author.Description</p>
+                    <a asp-action="details" asp-route-id="@author.Id" class="btn  btn-primary">@author.Description</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>*@
+
+
+
+
+
+@{
+	Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<section class="featured-posts">
+
+
+
+	<div class="section-title">
+
+
+
+		<h2><span>Favourite Books</span></h2>
+
+
+
+	</div>
+
+
+
+
+
+	<div class="card-columns listfeaturedtag">
+
+
+
+
+
+		@foreach (var book in Model)
+
+
+
+		{
+
+
+
+			<!-- begin post -->
+
+
+
+			<div class="card">
+
+
+
+				<div class="row">
+
+
+
+					<div class="col-md-5 wrapthumbnail">
+
+
+
+						<a href="@Url.Action("details", "book", new { id =book.Id })">
+
+
+
+							<div class="thumbnail" style="background-image: url(@book.Cover);">
+							</div>
+
+
+
+						</a>
+
+
+
+					</div>
+
+
+
+					<div class="col-md-7">
+
+
+
+						<div class="card-block">
+
+							<h2 class="card-title"><a href="@Url.Action("details", "book", new { id = book.Id })">@book.Title</a></h2>
+
+
+
+							@*<h2 class="card-title"><a href="">@book.Title</a></h2>*@
+
+
+
+							<h4 class="card-text">@book.Description</h4>
+
+
+
+							<div class="metafooter">
+
+
+
+								@*<div class="wrapfooter">
+
+
+
+							<span class="meta-footer-thumb">
+
+
+
+							<a href="book.html"><img class="author-thumb" src="@Html.Raw(book.Cover_Photo)" alt="@book.Title"></a>
+
+
+
+							</span>
+
+
+
+							<span class="author-meta">
+
+
+
+							<span class="post-name"><a href="book.html">@book.Title</a></span><br />
+
+
+
+							</span>
+							*@
+								
+
+							</div>
+							@*<a asp-action="Update" asp-controller="Book" asp-route-id="@book.Id" class='btn-secondary btn btn-sm  mt-3' style="background-color: lightskyblue;">Update</a>
+							<a asp-action="Delete" asp-route-id="@book.Id" class='btn-secondary btn btn-sm  mt-3' style="background-color: coral;">Delete</a>
+*@
+							<a asp-action="DeleteFavorites" asp-route-id="@book.Id" class="btn  btn-danger" style="background-color: coral;">remove from favourite</a>
+
+
+						</div>
+
+
+
+					</div>
+
+
+
+				</div>
+
+
+
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+			<!-- end post -->
+		}
+
+
+
+	</div>
+
+
+
+</section>

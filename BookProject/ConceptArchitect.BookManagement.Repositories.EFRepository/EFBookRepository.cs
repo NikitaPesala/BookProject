@@ -1,4 +1,5 @@
 ﻿using ConceptArchitect.Utils;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,15 +8,13 @@ using System.Threading.Tasks;
 
 namespace ConceptArchitect.BookManagement.Repositories.EFRepository
 {
-    public class EFBookRepository : IRepository<Book,string>
+    public class EFBookRepository : IBookRepository<Book, Favourites, string>
     {
-        BMSContext context;
+        BMSContext context, context1;
         public EFBookRepository(BMSContext context)
         {
             this.context = context;
         }
-
-
 
         public async Task<Book> Add(Book entity)
         {
@@ -80,6 +79,56 @@ namespace ConceptArchitect.BookManagement.Repositories.EFRepository
 
 
             return entity;
+        }
+
+        public async Task<Book> Fav(Book book, string userId)
+        {
+            var fav = new Favourites
+            {
+                Id = $"{book.Title}-{userId}",
+                UserEmail = userId,
+                Book = book,
+            };
+            context.Favourites.Add(fav);
+            await context.SaveChangesAsync();
+
+            return book;
+        }
+
+        public async Task<List<Book>> GetAllFav(string userId)
+        {
+            await Task.CompletedTask;
+			/*var favoriteBooks = await context1.Favourites
+                .Where(favorite => favorite.UserEmail == userId)
+                .Select(favorite => favorite.Book)
+                .ToListAsync();*/
+			var favoriteBooks = await context.Favourites
+				.Where(favorite => favorite.UserEmail == userId)
+				.Select(favorite => favorite.Book)
+				.ToListAsync();
+
+			return favoriteBooks;
+        }
+
+
+
+        public async Task<List<Book>> GetAllFav(string userId, Func<Book, bool> predicate)
+        {
+            var favoriteBooks = await GetAllFav(userId);
+
+            return favoriteBooks.Where(predicate).ToList();
+        }
+
+        public async Task DeleteFav(string id, string user_id)
+        {
+            var favorite = await context.Favourites
+                .FirstOrDefaultAsync(f => f.Book.Id == id && f.UserEmail == user_id);
+
+            if (favorite != null)
+            {
+                context.Favourites.Remove(favorite);
+                await context.SaveChangesAsync();
+            }
         }
     }
 }

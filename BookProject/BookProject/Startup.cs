@@ -22,6 +22,15 @@ namespace BookProject
 
             services.AddTransient<IUserService, PersistentUserService>();
 
+            services.AddHttpContextAccessor();
+
+            services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(30); // Session timeout
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
+
             return services;
         }
 
@@ -74,6 +83,8 @@ namespace BookProject
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseSession();
 
 
             app.MapControllerRoute(

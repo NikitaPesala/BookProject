@@ -18,5 +18,13 @@ namespace ConceptArchitect.BookManagement
 		Task DeleteBook(string bookId);
 
 		Task<List<Book>> SearchBooks(string term);
+
+		Task<List<Book>> GetAllFavs(string userId);
+
+		Task<Book> AddFavs(Book book, string userId);
+
+		Task<bool> IsBookInUserFavorites(string bookId, string userId);
+
+		Task DeleteFav(string bookId, string userId);
 	}
 }

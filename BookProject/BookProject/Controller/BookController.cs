@@ -10,11 +10,16 @@ namespace BookProject
     {
         IBookService bookService;
         IAuthorService authorService;
-        public BookController(IBookService books, IAuthorService author)
+		string userId;
+
+		private readonly IHttpContextAccessor _httpContextAccessor;
+
+		public BookController(IBookService books, IAuthorService author, IHttpContextAccessor httpContextAccessor)
         {
             this.bookService = books;
             this.authorService = author;
-        }
+			_httpContextAccessor = httpContextAccessor;
+		}
 
 
 
@@ -141,6 +146,58 @@ namespace BookProject
 				return View(vm);
 			}
 		}
+
+		public async Task<ViewResult> Favorites()
+		{
+			userId = _httpContextAccessor.HttpContext.Session.GetString("UserId");
+			var books = await bookService.GetAllFavs(userId);
+
+			return View(books);
+		}
+
+		[HttpPost]
+		public async Task<ActionResult> Favorites(string id)
+		{
+
+			userId = _httpContextAccessor.HttpContext.Session.GetString("UserId");
+			var book = await bookService.GetBookById(id);
+
+			var isAlreadyFavorite = await bookService.IsBookInUserFavorites(book.Id, userId);
+			if (!isAlreadyFavorite)
+			{
+				await bookService.AddFavs(book, userId);
+			}
+
+			return RedirectToAction("Favorites");
+		}
+/*
+		[HttpPost]
+		public async Task<ActionResult> Favorites(Book author)
+		{
+			userId = _httpContextAccessor.HttpContext.Session.GetString("UserId");
+
+
+			var isAlreadyFavorite = await bookService.IsBookInUserFavorites(author.Id, userId);
+			if (!isAlreadyFavorite)
+			{
+				await bookService.AddFavs(author, userId);
+			}
+
+			return RedirectToAction("Favorites");
+		}
+*/
+		public async Task<ActionResult> DeleteFavorites(string id)
+		{
+			userId = _httpContextAccessor.HttpContext.Session.GetString("UserId");
+			await bookService.DeleteFav(id, userId);
+
+            return RedirectToAction("Favorites");
+        }
+
+
+
+
+
 
 
 
