@@ -48,7 +48,7 @@ namespace ConceptArchitect.BookManagement
         {
             term = term.ToLower();
 
-            return await repository.GetAll(a => a.Email.ToLower().Contains(term) || a.Name.ToLower().Contains(term));
+            return await repository.GetAll(a => a.UserEmail.ToLower().Contains(term) || a.Name.ToLower().Contains(term));
         }
 
         public async Task<User> UpdateUser(User entity)
@@ -56,7 +56,7 @@ namespace ConceptArchitect.BookManagement
 
             return await repository.Update(entity, (old, newDetails) =>
             {
-                old.Email = newDetails.Email;
+                old.UserEmail = newDetails.UserEmail;
                 old.Password = newDetails.Password;
                 old.Name = newDetails.Name;
                 old.Photo = newDetails.Photo;

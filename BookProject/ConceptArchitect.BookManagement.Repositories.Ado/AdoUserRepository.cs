@@ -21,7 +21,7 @@ namespace ConceptArchitect.BookManagement.Repositories.Ado
         public async Task<User> Add(User user)
         {
             var query = $"insert into users(email, password, name, photo) " +
-                              $"values('{user.Email}','{user.Password}','{user.Name}','{user.Photo}')";
+                              $"values('{user.UserEmail}','{user.Password}','{user.Name}','{user.Photo}')";
 
             await db.ExecuteUpdateAsync(query);
 
@@ -37,7 +37,7 @@ namespace ConceptArchitect.BookManagement.Repositories.Ado
         {
             return new User()
             {
-                Email = reader["email"].ToString(),
+                UserEmail = reader["email"].ToString(),
                 Password = reader["password"].ToString(),
                 Name = reader["name"].ToString(),
                 Photo = reader["profile_photo"].ToString()
@@ -67,12 +67,12 @@ namespace ConceptArchitect.BookManagement.Repositories.Ado
 
         public async Task<User> Update(User entity, Action<User, User> mergeOldNew)
         {
-            var olduser = await GetById(entity.Email);
+            var olduser = await GetById(entity.UserEmail);
             if (olduser != null)
             {
                 mergeOldNew(olduser, entity);
                 var query = $"update users set " +
-                            $"Email='{olduser.Email}', " +
+                            $"Email='{olduser.UserEmail}', " +
                             $"Password='{olduser.Password}', " +
                             $"Name='{olduser.Name}', " +
                             $"Photo='{olduser.Photo}'";

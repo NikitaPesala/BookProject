@@ -1,57 +1,78 @@
-﻿@using ConceptArchitect.BookManagement
-@model Book
-
+﻿@model IEnumerable<ConceptArchitect.BookManagement.Reviews>
+@{
+    ViewData["Title"] = "Reviews";
+}
 
 @{
     Layout = "/Views/Shared/_Layout.cshtml";
 }
 
 
-<h2>About @Model.Title</h2>
+<h1>Reviews</h1>
+<p>
+    <a asp-action="Add" asp-controller="Reviews" class='btn-secondary btn btn-sm float-right mt-3' style="background-color: lightgreen";>Add New</a>
+</p>
 
-<div class="card-columns listfeaturedtag">
-   
-    <div class="card">
-        <div class="row">
-
-            <div class="col-md-5 wrapthumbnail">
-                <a>
-                    <div class="thumbnail" style="background-image: url(@Model.Cover);">
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-md-7">
-
-                <div class="card-block">
-                    <h2 class="card-title"><a>@Model.Title</a></h2>
-                    <h4 class="card-text">@Model.Description</h4>
-                    <div class="metafooter">
-                        <div class="wrapfooter">
-                            <span class="meta-footer-thumb">
-                                <a><img class="author-thumb" src="@Html.Raw(Model.Cover)" alt="Sal"></a>
-                            </span>
-                            <span class="author-meta">
-                                <span class="post-read-more"><a href="ViewPage.html" title="Add To My Favourites"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
-
-                        </div>
-                    </div>
-
-                    @*<a href="@Url.Action("reviews", "Reviews", new { Id = Model.Id })">*@
-
-                    <a href="@Url.Action("reviews", "Reviews", new { Id = Model.Id })" asp-route-id="@Model.Id" class="btn btn-primary">View Reviews</a>
-                    @*<a asp-controller="Reviews" href="/reviews/reviews"  asp-action="reviews" asp-route-id="@Model.Id" class="btn btn-primary">View Reviews</a>*@
-
-                    @* <a asp-controller="Review" asp-action="Create" asp-route-id="@Model.Id" class="btn btn-primary">Add Review</a> *@
+@*Add a button for adding new reviews*@
+<a ref="@Url.Action("reviews", "Reviews" @*new { Id = Reviews.Id }*@)" class='btn-secondary btn btn-sm float-right mt-3' style="background-color: lightgreen" ;>Add New</a>
 
 
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- Review Section-->
+<table class="table">
+	<thead>
+		<tr>
+			<th>
+				@Html.DisplayNameFor(model => model.Book.Id)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.User.UserEmail)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Rating)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Headline)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Comment)
+			</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>
+					@Html.DisplayFor(modelItem => item.Book.Id)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.User.UserEmail)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Rating)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Headline)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Comment)
+				</td>
+				
+                <td>
+					<a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+					<a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+					<a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+				</td>
+                
+			</tr>
+		}
+	</tbody>
+
+</table>
+
+
+    <!-- Review Section-->
 <div class="card-rows mt-6">
     <div class="row">
         <!-- customer reviews -->
@@ -168,7 +189,7 @@
                     </div>
                 </div>
                 <div class="mb-2">
-                    <span class="font-14 mr-2">&#11088;&#11088;&#11088;&#11088;&#11088;</i></span>
+                    <span class="font-14 mr-2">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
                     <span class="h5">"Kurukshetra" is widely regarded as one of the greatest works in Hindi literature.</span>
                 </div>
                 <p>
@@ -178,12 +199,14 @@
                 <a href="#!" class="text-inherit font-14">Report abuse</a>
             </div>
             <!-- reviews -->
-            <div class="mb-4 pb-4 border-bottom">
+            @foreach (var item in Model)
+		    {
+                <div class="mb-4 pb-4 border-bottom">
                 <div class="d-flex mb-3 align-items-center">
-                    <img src="~/images/logo.png" alt="" class="rounded-circle avatar-lg" width="36px" height="36px">
+                        <img src="@Html.Raw(item.User.Photo)" alt="" class="rounded-circle avatar-lg" width="36px" height="36px">
                     <div class="ml-2">
                         <h5 class="mb-1">
-                            Ashutosh
+                                @Html.Raw(item.User.Name)
                             <img src="~/images/verified.png" alt="" width="10px">
                         </h5>
                         <p class="font-12 mb-0">
@@ -192,40 +215,19 @@
                     </div>
                 </div>
                 <div class="mb-2">
-                    <span class="font-14 mr-2">&#11088;&#11088;&#11088;&#11088;&#11088;</i></span>
-                    <span class="h5">"Kurukshetra" is widely regarded as one of the greatest works in Hindi literature.</span>
+                    <span class="font-14 mr-2">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
+                        <span class="h5">@Html.DisplayFor(modelItem => item.Headline)</span>
                 </div>
                 <p>
-                    "Kurukshetra" is widely regarded as one of the greatest works in Hindi literature, and Dinkar's mastery of language and poetic expression is evident throughout the poem. He received several awards for his contributions to Hindi literature, including the Padma Bhushan in 1959 and the Sahitya Akademi Award in 1972. Dinkar passed away on 24th April 1974, leaving behind a rich legacy of poetry that continues to inspire and resonate with readers.
+                        @Html.DisplayFor(modelItem => item.Comment)
                 </p>
                 <a href="#!" class="btn btn-light btn-sm mr-2">Helpful</a>
                 <a href="#!" class="text-inherit font-14">Report abuse</a>
             </div>
-            <!-- reviews -->
-            <div class="mb-4 pb-4 border-bottom">
-                <div class="d-flex mb-3 align-items-center">
-                    <img src="~/images/logo.png" alt="" class="rounded-circle avatar-lg" width="36px" height="36px">
-                    <div class="ml-2">
-                        <h5 class="mb-1">
-                            Ashutosh
-                            <img src="~/images/verified.png" alt="" width="10px">
-                        </h5>
-                        <p class="font-12 mb-0">
-                            <span>India</span> <span>16 July 2023</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="mb-2">
-                    <span class="font-14 mr-2">&#11088;&#11088;&#11088;&#11088;&#11088;</i></span>
-                    <span class="h5">"Kurukshetra" is widely regarded as one of the greatest works in Hindi literature.</span>
-                </div>
-                <p>
-                    "Kurukshetra" is widely regarded as one of the greatest works in Hindi literature, and Dinkar's mastery of language and poetic expression is evident throughout the poem. He received several awards for his contributions to Hindi literature, including the Padma Bhushan in 1959 and the Sahitya Akademi Award in 1972. Dinkar passed away on 24th April 1974, leaving behind a rich legacy of poetry that continues to inspire and resonate with readers.
-                </p>
-                <a href="#!" class="btn btn-light btn-sm mr-2">Helpful</a>
-                <a href="#!" class="text-inherit font-14">Report abuse</a>
-            </div>
+            
+            }
             <a href="#!" class="btn btn-primary">Read More Reviews</a>
         </div>
     </div>
 </div>
+-->

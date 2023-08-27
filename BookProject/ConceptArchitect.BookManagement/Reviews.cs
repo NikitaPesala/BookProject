@@ -9,11 +9,8 @@ namespace ConceptArchitect.BookManagement
 {
     public class Reviews
     {
-
       
         public string Id { get; set; }
-
-
         [Required]
 
         public User User { get; set; }
@@ -22,7 +19,8 @@ namespace ConceptArchitect.BookManagement
         //optional
         public int Rating { get; set; }
 
-   
+        public string Headline { get; set; }
+        public string Comment { get; set; }
 
         //optional
         public string? Details { get; set; }

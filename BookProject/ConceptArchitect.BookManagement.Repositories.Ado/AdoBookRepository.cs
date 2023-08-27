@@ -1,6 +1,6 @@
 using ConceptArchitect.Data;
 using ConceptArchitect.Utils;
-using Newtonsoft.Json;
+
 using System.Data;
 
 namespace ConceptArchitect.BookManagement.Repositories.Ado

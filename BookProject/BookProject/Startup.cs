@@ -4,6 +4,7 @@ using BookProject.Extensions;
 using BookProject;
 using Microsoft.AspNetCore.Authentication;
 using ConceptArchitect.BookManagement.Repositories.EFRepository;
+using Microsoft.EntityFrameworkCore;
 
 namespace BookProject
 {
@@ -18,9 +19,11 @@ namespace BookProject
 
             services.AddTransient<IAuthorService, PersistentAuthorService>();
 
-            //services.AddTransient<IBookService, PersistentBookService>();
+            services.AddTransient<IBookService, PersistentBookService>();
 
             services.AddTransient<IUserService, PersistentUserService>();
+
+            services.AddTransient<IReviewsService, PersistentReviewsService>();
 
             return services;
         }
@@ -44,7 +47,9 @@ namespace BookProject
             app.UseOnUrl("/admin/seed", async context =>
             {
                 var authorService = context.RequestServices.GetService<IAuthorService>();
+                var bookService = context.RequestServices.GetService<IBookService>();
 
+                
                 await authorService.AddAuthor(new Author()
                 {
                     Id = "dinkar",
@@ -65,6 +70,7 @@ namespace BookProject
                     Tags = "freedom fighter, social reformer",
                     DeathDate = new DateTime(1948, 1, 30)
                 });
+                
 
             });
 

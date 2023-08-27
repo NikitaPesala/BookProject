@@ -62,7 +62,7 @@ namespace BooksProject
         [HttpPost]
         public async Task<ActionResult> Login(User user)
         {
-            var response = await authorService.GetUserById(user.Email);
+            var response = await authorService.GetUserById(user.UserEmail);
             if (response == null || response.Password != user.Password)
             {
                 return View(new User());

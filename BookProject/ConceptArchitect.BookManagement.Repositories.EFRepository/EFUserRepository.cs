@@ -63,14 +63,14 @@ namespace ConceptArchitect.BookManagement.Repositories.EFRepository
 
 
 
-            return context.Users.FirstOrDefault(a => a.Email == email);
+            return context.Users.FirstOrDefault(a => a.UserEmail == email);
         }
 
 
 
         public async Task<User> Update(User entity, Action<User, User> mergeOldNew)
         {
-            var Users = await GetById(entity.Email);
+            var Users = await GetById(entity.UserEmail);
             if (Users != null)
             {
                 mergeOldNew(Users, entity);

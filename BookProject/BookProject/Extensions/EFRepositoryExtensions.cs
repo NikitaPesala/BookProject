@@ -28,6 +28,8 @@ namespace BookProject.Extensions
 
             services.AddTransient<IRepository<Book,string>,EFBookRepository>();
 
+            services.AddTransient<IRepository<Reviews, string>, EFReviewsRepository>();
+
             return services;
 
         }

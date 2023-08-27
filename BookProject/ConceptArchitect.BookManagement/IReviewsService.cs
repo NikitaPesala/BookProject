@@ -18,7 +18,5 @@ namespace ConceptArchitect.BookManagement
         Task DeleteReviews(string ReviewsId);
 
         Task<List<Reviews>> SearchReviewss(string term);
-
-
     }
 }
