@@ -77,7 +77,8 @@ namespace BooksProject
         {
             await authorService.AddUser(user);
 			HttpContext.Session.SetString("UserId", user.Email);
-			return RedirectToAction("Index", "Author", user.Name);
+            //return RedirectToAction("Index", "Author", user.Name);
+            return RedirectToAction("Login", "User");
         }
 
 

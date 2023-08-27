@@ -60,3 +60,22 @@ C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositor
 C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\obj\Debug\net6.0\refint\ConceptArchitect.BookManagement.Repositories.Ado.dll
 C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.Ado.pdb
 C:\New Project\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\obj\Debug\net6.0\ref\ConceptArchitect.BookManagement.Repositories.Ado.dll
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\bin\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.Ado.deps.json
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\bin\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.Ado.dll
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\bin\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.Ado.pdb
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\bin\Debug\net6.0\ConceptArchitect.BookManagement.dll
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\bin\Debug\net6.0\ConceptArchitect.Data.dll
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\bin\Debug\net6.0\ConceptArchitect.Utils.dll
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\bin\Debug\net6.0\ConceptArchitect.BookManagement.pdb
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\bin\Debug\net6.0\ConceptArchitect.Utils.pdb
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\bin\Debug\net6.0\ConceptArchitect.Data.pdb
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.Ado.csproj.AssemblyReference.cache
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.Ado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.Ado.AssemblyInfoInputs.cache
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.Ado.AssemblyInfo.cs
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.Ado.csproj.CoreCompileInputs.cache
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.Ado.csproj.CopyComplete
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.Ado.dll
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\obj\Debug\net6.0\refint\ConceptArchitect.BookManagement.Repositories.Ado.dll
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\obj\Debug\net6.0\ConceptArchitect.BookManagement.Repositories.Ado.pdb
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.BookManagement.Repositories.Ado\obj\Debug\net6.0\ref\ConceptArchitect.BookManagement.Repositories.Ado.dll

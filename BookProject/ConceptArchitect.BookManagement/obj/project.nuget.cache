@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "GQVZMi7nQQQhSk/2cUYoU6JWJIAQGQaqFUvFzdVlJKux/jQO0ozh8SHKb+mDFKvnlWugPd/TESCYznao+3/9rQ==",
+  "dgSpecHash": "/P0p0yTD/LlvYH/JdgTMq5Gzip9IbcPRUUIZekbmOpzi6dHvbUTYeUfRqgbv09skR6RahIcsNzWUsq/3HmGaHA==",
   "success": true,
-  "projectFilePath": "C:\\New Project\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj",
+  "projectFilePath": "C:\\Users\\pesalni\\source\\repos\\Traning\\BookProject\\BookProject\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mohapar\\.nuget\\packages\\dataannotationsextensions\\5.0.1.27\\dataannotationsextensions.5.0.1.27.nupkg.sha512"
+    "C:\\Users\\pesalni\\.nuget\\packages\\dataannotationsextensions\\5.0.1.27\\dataannotationsextensions.5.0.1.27.nupkg.sha512"
   ],
   "logs": [
     {

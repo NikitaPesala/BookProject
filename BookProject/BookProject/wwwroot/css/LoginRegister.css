@@ -1,0 +1,42 @@
+﻿signup css
+/* LoginRegister.css */
+body {
+    background-image: url('https://w0.peakpx.com/wallpaper/246/652/HD-wallpaper-page-2-custom-minimalist-templates-minimal-grey.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+.my-form {
+    background-color: transparent;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.btn {
+    border-radius: 5px;
+}

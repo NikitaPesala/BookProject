@@ -45,3 +45,15 @@ C:\New Project\BookProject\BookProject\ConceptArchitect.Data\obj\Debug\net6.0\Co
 C:\New Project\BookProject\BookProject\ConceptArchitect.Data\obj\Debug\net6.0\refint\ConceptArchitect.Data.dll
 C:\New Project\BookProject\BookProject\ConceptArchitect.Data\obj\Debug\net6.0\ConceptArchitect.Data.pdb
 C:\New Project\BookProject\BookProject\ConceptArchitect.Data\obj\Debug\net6.0\ref\ConceptArchitect.Data.dll
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.Data\bin\Debug\net6.0\ConceptArchitect.Data.deps.json
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.Data\bin\Debug\net6.0\ConceptArchitect.Data.dll
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.Data\bin\Debug\net6.0\ConceptArchitect.Data.pdb
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.Data\obj\Debug\net6.0\ConceptArchitect.Data.csproj.AssemblyReference.cache
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.Data\obj\Debug\net6.0\ConceptArchitect.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.Data\obj\Debug\net6.0\ConceptArchitect.Data.AssemblyInfoInputs.cache
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.Data\obj\Debug\net6.0\ConceptArchitect.Data.AssemblyInfo.cs
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.Data\obj\Debug\net6.0\ConceptArchitect.Data.csproj.CoreCompileInputs.cache
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.Data\obj\Debug\net6.0\ConceptArchitect.Data.dll
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.Data\obj\Debug\net6.0\refint\ConceptArchitect.Data.dll
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.Data\obj\Debug\net6.0\ConceptArchitect.Data.pdb
+C:\Users\pesalni\source\repos\Traning\BookProject\BookProject\ConceptArchitect.Data\obj\Debug\net6.0\ref\ConceptArchitect.Data.dll

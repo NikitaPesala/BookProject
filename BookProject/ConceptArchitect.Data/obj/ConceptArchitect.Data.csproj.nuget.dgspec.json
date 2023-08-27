@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\New Project\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj": {}
+    "C:\\Users\\pesalni\\source\\repos\\Traning\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj": {}
   },
   "projects": {
-    "C:\\New Project\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj": {
+    "C:\\Users\\pesalni\\source\\repos\\Traning\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\New Project\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
+        "projectUniqueName": "C:\\Users\\pesalni\\source\\repos\\Traning\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
         "projectName": "ConceptArchitect.Data",
-        "projectPath": "C:\\New Project\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
-        "packagesPath": "C:\\Users\\mohapar\\.nuget\\packages\\",
-        "outputPath": "C:\\New Project\\BookProject\\BookProject\\ConceptArchitect.Data\\obj\\",
+        "projectPath": "C:\\Users\\pesalni\\source\\repos\\Traning\\BookProject\\BookProject\\ConceptArchitect.Data\\ConceptArchitect.Data.csproj",
+        "packagesPath": "C:\\Users\\pesalni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pesalni\\source\\repos\\Traning\\BookProject\\BookProject\\ConceptArchitect.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mohapar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pesalni\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
