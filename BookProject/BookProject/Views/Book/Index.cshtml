@@ -139,9 +139,9 @@
 							</div>
 							<a asp-action="Update" asp-controller="Book" asp-route-id="@book.Id" class='btn-secondary btn btn-sm  mt-3' style="background-color: lightskyblue;">Update</a>
 							<a asp-action="Delete" asp-route-id="@book.Id" class='btn-secondary btn btn-sm  mt-3' style="background-color: coral;">Delete</a>
-							<form asp-action="Favorites" asp-route-id="@book.Id" method="post">
+							<form asp-action="Favorites" asp-route-id="@book.Id" method="post" >
 								@Html.AntiForgeryToken()
-								<button type="submit" class="btn-secondary btn btn-sm  mt-3" style="background-color: burlywood">Add to Favorites</button>
+								<button type="submit" class="btn-secondary btn btn-sm  mt-3" style="background-color:plum">Add to Favorites</button>
 							</form>
 
 						</div>

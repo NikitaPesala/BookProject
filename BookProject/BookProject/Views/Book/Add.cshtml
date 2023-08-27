@@ -10,72 +10,93 @@
     ViewData["Title"] = "Add";
 }
 
-<h1>Add</h1>
 
-<h4>Book</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Add" asp-controller="Book">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Id" class="control-label">Id</label>
-                <input asp-for="Id" class="form-control" />
-                <span asp-validation-for="Id" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Title" class="control-label">Title</label>
-                <input asp-for="Title" class="form-control" />
-                <span asp-validation-for="Title" class="text-danger"></span>
-            </div>
-          @*  <div class="form-group">
 
-                <label asp-for="AuthorId" class="control-label">Author</label>
-                <select asp-for="AuthorId" class="form-control" asp-items="Author.id">
-                    <option value="">Select an author</option>
-                </select>
-                <span asp-validation-for="AuthorId" class="text-danger"></span>
-            </div>*@
-            <div class="form-group">
-                <label asp-for="AuthorId" class="control-label">Author</label>
-                <select asp-for="AuthorId" class="form-control">
-                    <option value="">Select an author</option>
-                    @foreach (var author in ViewBag.response)
-                    {
-                        <option value="@author.Id"> @author.Name </option>
-                    }
-                </select>
-                <span asp-validation-for="AuthorId" class="text-danger"></span>
-            </div>
-          
+<!DOCTYPE html>
 
-            <div class="form-group">
-                <label asp-for="Cover" class="control-label">Cover</label>
-                <input asp-for="Cover" class="form-control" />
-                <span asp-validation-for="Cover" class="text-danger"></span>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title></title>
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Questrial|Droid+Sans|Alice' rel='stylesheet' type='text/css'>
+
+
+    <link href="/css/forms.css" rel="stylesheet">
+    <link href="/css/overwrite.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div></div>
+            <img id="postcard" src="https://tse4.mm.bing.net/th/id/OIP.hckIuGpw6ntqo-3KzqD0ZgHaHz?pid=ImgDet&rs=1" alt="postcard" class="img-responsive move">
+            <div id="content">
+                <h1> New Book </h1>
+
+
+                <form asp-action="Add" asp-controller="Book" role="form">
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Id" class="control-label">Id <span class="required">*</span></label>
+                        <input asp-for="Id" class="form-control" required="required" placeholder="Book Id" />
+                        <span asp-validation-for="Id" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Title" class="control-label">Title<span class="required">*</span></label>
+                        <input asp-for="Title" class="form-control" required="required" />
+                        <span asp-validation-for="Title" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="AuthorId" class="control-label">Author<span class="required">*</span></label>
+                        <select asp-for="AuthorId" class="form-control" required="required">
+                            <option value="">Select an author</option>
+                            @foreach (var author in ViewBag.response)
+                            {
+                                <option value="@author.Id"> @author.Name </option>
+                            }
+                        </select>
+                        <span asp-validation-for="AuthorId" class="text-danger"></span>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label asp-for="Cover" class="control-label">Cover<span class="required">*</span></label>
+                        <input asp-for="Cover" class="form-control" required="required" />
+                        <span asp-validation-for="Cover" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Description" class="control-label">Description<span class="required">*</span></label>
+                        <input asp-for="Description" class="form-control" required="required" />
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Price" class="control-label">Price<span class="required">*</span></label>
+                        <input asp-for="Price" class="form-control" required="required" />
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Tags" class="control-label">Tags<span class="required">*</span></label>
+                        <input asp-for="Tags" class="form-control" required="required" />
+                        <span asp-validation-for="Tags" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                    <div class="form-group">
+                        <a asp-action="Index">Back to List</a>
+                    </div>
+                </form>
+
+              
             </div>
-            <div class="form-group">
-                <label asp-for="Description" class="control-label">Description</label>
-                <input asp-for="Description" class="form-control" />
-                <span asp-validation-for="Description" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Price" class="control-label">Price</label>
-                <input asp-for="Price" class="form-control" />
-                <span asp-validation-for="Price" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Tags" class="control-label">Tags</label>
-                <input asp-for="Tags" class="form-control" />
-                <span asp-validation-for="Tags" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+        </div>
+
     </div>
-</div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+</body>
+</html>
+

@@ -9,13 +9,33 @@
 @{
     ViewData["Title"] = "Update";
 }
+<!DOCTYPE html>
 
-<h1>Update</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
 
-<h4>@Model.Title</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
+    <title></title>
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Questrial|Droid+Sans|Alice' rel='stylesheet' type='text/css'>
+
+
+    <link href="/css/forms.css" rel="stylesheet">
+    <link href="/css/overwrite.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div></div>
+            <img id="postcard" src="https://tse4.mm.bing.net/th/id/OIP.hckIuGpw6ntqo-3KzqD0ZgHaHz?pid=ImgDet&rs=1" alt="postcard" class="img-responsive move">
+            <div id="content">
+
+                <h1>Update @Model.Title</h1>
+
+
+
         <form asp-action="Update" asp-controller="Book" method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
@@ -27,23 +47,9 @@
                 <input asp-for="Title" class="form-control" />
                 <span asp-validation-for="Title" class="text-danger"></span>
             </div>
-            @*  <div class="form-group">
-
-            <label asp-for="AuthorId" class="control-label">Author</label>
-            <select asp-for="AuthorId" class="form-control" asp-items="Author.id">
-            <option value="">Select an author</option>
-            </select>
-            <span asp-validation-for="AuthorId" class="text-danger"></span>
-            </div>*@
+          
             <div class="form-group">
                 <label asp-for="AuthorId" class="control-label">Author</label>
-                @*<select asp-for="AuthorId" class="form-control">
-                    <option value="">Select an author</option>
-                    @foreach (var author in ViewBag.response)
-                    {
-                        <option value="@author.Id"> @author.Name </option>
-                    }
-                </select>*@
                 <input asp-for="AuthorId" class="form-control" />
                 <span asp-validation-for="AuthorId" class="text-danger"></span>
             </div>
@@ -72,10 +78,14 @@
             <div class="form-group">
                 <input type="submit" value="Update Book" class="btn btn-primary" />
             </div>
+
+                    <div>
+                        <a asp-action="Index">Back to List</a>
+                    </div>
         </form>
     </div>
 </div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
+</body>
+</html>
+
