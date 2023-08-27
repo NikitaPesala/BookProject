@@ -90,7 +90,7 @@ namespace BookProject
             app.MapControllerRoute(
                name: "default",
                pattern: "",
-               defaults: new { controller = "Home", action = "Home" }
+               defaults: new { controller = "user", action = "login" }
 
             );
 
